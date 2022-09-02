@@ -4,7 +4,10 @@ pipeline {
     stage('build') {
       steps {
         sh 'echo \'start build formDSL\''
-        withGradle()
+        withGradle() {
+          sh 'echo \'Hi\''
+        }
+
       }
     }
 
