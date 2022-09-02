@@ -12,6 +12,7 @@ pipeline {
       steps {
         sh 'echo \'start build formDSL\''
         sh 'mvn package'
+        archiveArtifacts(artifacts: 'target/*.jar', allowEmptyArchive: true)
       }
     }
 
