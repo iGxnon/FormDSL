@@ -1,6 +1,6 @@
 # FormDSL Module
 
-> FormDSL 支持 kotlin 开发者使用 DSL 的方式来便捷的创建 Form 表单
+> FormDSL 支持 kotlin 开发者使用 DSL 的方式来便捷的创建 Nukkit Form 表单
 
 ## 前置
 
